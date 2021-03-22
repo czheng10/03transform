@@ -41,7 +41,7 @@ def parse_file( fname, points, transform, screen, color ):
 
     while i < len(conlist):
         c = conlist[i]   #current command
-        print(c)
+
         #line
         if c == "line":
             coordlist = conlist[i+1].split(" ")
